@@ -49,7 +49,7 @@ for (var i = 0; i < chosenWord.length; i++) {
        answerLetter.innerHTML = playersLetter.value
        puzzleLife--
       }
-     if(puzzleLife <= 0){
+     if(puzzleLife == 0){
        alert('you win');
       }
      
